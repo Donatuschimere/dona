@@ -1,0 +1,151 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.header-section {
+    display: flex;
+    background-color: rgb(39, 39, 232);
+    height: 70px;
+    flex-wrap: wrap;
+}
+.navbar {
+    display: flex;
+    gap: 50px;
+    justify-content: flex-end;
+    color: white;
+}
+.navbar p{
+    font-size: 20px;
+    margin-top: 25px;
+}
+.navbar ul{
+    display: flex;
+    list-style-type: none;
+    margin-top: 20px;
+    margin-left: 50rem;
+}
+.navbar ul li{
+    margin: 10px;
+}
+
+/* NAVBAR-SECTION */
+
+.navbar-section{
+    display: flex;
+    background-color: whitesmoke;
+}
+.navbar-section > * {
+    margin: 10px;
+}
+.logo{
+    padding-left: 50px;
+    color: darkcyan;
+}
+
+/* SERVICES-SECTION */
+.service-container{
+    background-image: url(./images/mountian.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 50vh;
+}
+.service-section{
+    display: flex;
+    gap: 7px;
+    justify-content: flex-start;
+    align-items: center;
+}
+.service-section > *{
+    background-color: rgb(39, 39, 232);
+    color: white;
+    margin-top: -18px;
+    padding-top: 2px;
+    text-align: center;
+    padding-bottom: 10px;
+    padding: 10px;
+    
+   
+}
+.grid-container{
+    background-color: rgb(93, 123, 123);
+    height: 15vh;
+    display: grid;
+    grid-template-columns: repeat(4, 100px);
+    grid-template-rows: repeat(1, 100px);
+    justify-content: flex-start;
+    align-items: center;
+}
+.grid-items{
+    display: grid;
+    grid-template-columns: repeat(4, 100px);
+    grid-template-rows: repeat(1, 100px);
+    height: 12vh;
+    margin: 10px;
+    width: 100px;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+/* MAIN-SECTION */
+.main-header{
+    text-align: center;
+    background-color: darkgray;
+    color: seashell;
+}
+.main-header h2{
+    font-size: 40px;
+}
+.main-header p{
+    font-size: 25px;
+}
+.cancel{
+    float: right;
+}
+.main-parent{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 25px;
+    background-color: darkgray;
+}
+.tour-section{
+    background-color: white;
+    color: black;
+    width: 350px;
+    box-shadow: opx 2px 4px orange;
+    gap: 10px;
+    margin-top: 30px;
+    border-radius: 5px;
+}
+.myto-image{
+    width: 100%;
+    height: auto;
+    
+}
+.text-section{
+    padding: 20px;
+}
+
+.get-updates{
+    background-color: darkgray;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    /* gap: 100px */
+    flex-wrap: wrap;
+    height: 50vh;
+
+}
+@media (max-width: 1028px) {
+    .main-parent{
+        width: 100%;
+    }
+    
+}
+
+
+
+
+
+
